@@ -22,8 +22,8 @@ public class BinaryTreePrinter {
 
 	private static void printTreeNodePreOrder(BinaryStringNode node) {
 		System.out.println(node);
-		if(node.getLeft()!=null) {printTreeNodeInOrder(node.getLeft());}
-		if(node.getRight()!=null) {printTreeNodeInOrder(node.getRight());}
+		if(node.getLeft()!=null) {printTreeNodePreOrder(node.getLeft());}
+		if(node.getRight()!=null) {printTreeNodePreOrder(node.getRight());}
 	}
 	
 	public static void printTreePostOrder(BinaryStringTree tree) {
@@ -32,8 +32,8 @@ public class BinaryTreePrinter {
 	}
 	
 	private static void printTreeNodePostOrder(BinaryStringNode node) {
-		if(node.getLeft()!=null) {printTreeNodeInOrder(node.getLeft());}
-		if(node.getRight()!=null) {printTreeNodeInOrder(node.getRight());}
+		if(node.getLeft()!=null) {printTreeNodePostOrder(node.getLeft());}
+		if(node.getRight()!=null) {printTreeNodePostOrder(node.getRight());}
 		System.out.println(node);
 	}
 }

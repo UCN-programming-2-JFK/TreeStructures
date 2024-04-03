@@ -1,6 +1,5 @@
 package equationcalculator.gui;
 
-import static org.junit.Assume.assumeNoException;
 
 import java.awt.*;
 
