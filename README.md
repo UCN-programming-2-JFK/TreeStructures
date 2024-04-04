@@ -1,9 +1,2 @@
-# This is a title
-
-## this is a subtitle
-
-### even smaller
-
-- point one
-- point two
-- point three
+# Treestructures
+Vejledende løsning til opgaver om composite pattern og binære træer i Java
